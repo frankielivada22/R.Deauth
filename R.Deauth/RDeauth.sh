@@ -10,8 +10,8 @@ localip=$(hostname -I)
 mon="mon"
 BSSID=""
 networkname=$(iwgetid -r)
-mygithub="https://github.com/rustywolf021"
-gitclonerepo="git clone https://github.com/rustywolf021/R.Deauth"
+mygithub="https://github.com/"
+gitclonerepo="git clone https://github.com//R.Deauth"
 source /etc/os-release
 
 function exitscript()
@@ -287,7 +287,7 @@ if [[ $menu1 == "4" ]]; then
 		sleep 2
 
 		echo "Skeet" > ssids.txt
-		echo "Rustywolf021" >> ssids.txt
+		echo "" >> ssids.txt
 		echo "Anonymous" >> ssids.txt
 		echo "FBI-VAN" >> ssids.txt
 		echo "Free WIFI" >> ssids.txt
